@@ -5,7 +5,7 @@ const masto = await login({
     accessToken: process.env.TOKEN,
 });
 const s = await masto.v1.statuses.create({
-    status: 'Or a tongue, or teeth... or a head! I might have a head?!',
+    status: 'Hello from #mastojs!',
     visibility: 'public',
 });
 console.log(s);
