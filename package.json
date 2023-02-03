@@ -1,0 +1,25 @@
+{
+  "name": "tipsy-robot",
+  "version": "0.0.1",
+  "type":"module",
+  "description": "erratic bot for mastodon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc:w": "tsc --watch",
+    "http-server": "npx http-server ./docs -o"
+  },
+  "keywords": [
+    "bot",
+    "experimental"
+  ],
+  "author": "Carlyn Maw",
+  "license": "MIT",
+  "dependencies": {
+    "masto": "^5.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
