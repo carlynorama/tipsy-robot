@@ -25,8 +25,11 @@ This project was set up using the following tutorials
 * make sure the `hello_world.ts` file is how you want it 
 * `npm run tsc`
 * make sure  `"type":"module"` is in the package.json
-* 
 * run the hello_world file 
+    * `cd` to the folder with the code
+    * type `URL={URL} TOKEN={TOKEN} node ./index.js` 
+        * where {URL} is the instance name "http://your.instance.com" and {TOKEN} is the token generated in that magic undocumented first step. These are then environment variables that don't end up saved in the repo.
+    
 
 
 ## tsconfig.json
