@@ -29,6 +29,16 @@ This project was set up using the following tutorials
     * `cd` to the folder with the code
     * type `URL={URL} TOKEN={TOKEN} node ./index.js` 
         * where {URL} is the instance name "http://your.instance.com" and {TOKEN} is the token generated in that magic undocumented first step. These are then environment variables that don't end up saved in the repo.
+* if you haven't already create a git repo with the default node `.gitignore`, but most especially `node_modules/` and `.env`
+* next make it so the secrets can live in the environment more permanently
+    * `npm install dotenv`
+    * create a file called `.env` and _make sure it is in the .gitignore_
+    * Add the following
+    ```
+       URL = "http://your.instance.com" 
+       TOKEN = "TOKEN"
+    ```
+    * Note that `index.ts` has `import 'dotenv/config'` at the top of the file. `node ./index.js` should work now. See [dotenv documentation](https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import) for more details. 
     
 
 

@@ -1,7 +1,7 @@
 {
   "name": "tipsy-robot",
   "version": "0.0.1",
-  "type":"module",
+  "type": "module",
   "description": "erratic bot for mastodon",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "author": "Carlyn Maw",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "masto": "^5.7.0"
   },
   "devDependencies": {
