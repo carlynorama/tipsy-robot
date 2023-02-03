@@ -5,6 +5,8 @@ This project was set up using the following tutorials
 - https://github.com/neet/masto.js
 - https://thecodingtrain.com/tracks/mastodon/mastodon/setting-up-a-mastodon-bot
 
+In the future may also investigate https://www.npmjs.com/package/megalodon 
+
 ## Project Startup
 
 { INSERT SETTING UP YOUR BOT ACCOUNT WITH ACCESS KEY HERE }
