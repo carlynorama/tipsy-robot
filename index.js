@@ -7,8 +7,9 @@ const masto = await login({
     accessToken: process.env.TOKEN,
 });
 const s = await masto.v1.statuses.create({
-    status: 'And I can remember what I said.',
+    status: 'Goodnight! See you tomorrow.',
     visibility: 'public',
 });
+//-----------------------------------------------   BEGIN MAIN
 console.log(s.id, s.content);
-await writeFile('./musings.json', JSON.stringify(s, null, 2));
+await writeFile(`musings_${new Date().getTime}.json`, JSON.stringify(s, null, 2), { encoding: 'utf8' });
