@@ -7,6 +7,12 @@ This project was set up using the following tutorials
 
 In the future may also investigate https://www.npmjs.com/package/megalodon 
 
+Python Alternatives
+- https://github.com/hodgesmr/mastodon_digest
+- https://pypi.org/project/Mastodon.py/
+- https://mastodonpy.readthedocs.io/en/stable/
+- https://opensource.com/article/23/1/mastodon-api-python
+
 ## Project Startup
 
 { INSERT SETTING UP YOUR BOT ACCOUNT WITH ACCESS KEY HERE }
